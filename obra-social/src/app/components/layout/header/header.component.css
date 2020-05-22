@@ -1,0 +1,48 @@
+header {
+  background: rgb(64, 64, 64);
+  height: 180px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#logo {
+  width: 10%;
+  float: left;
+}
+
+#logo>img {
+  width: 120px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+nav {
+  width: 70%;
+  float: left;
+}
+
+nav p {
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+nav ul {
+  color: white;
+  list-style-type: none;
+  float: right
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+nav ul a li {
+  color: white;
+  display: inline-block;
+}
+
+nav ul a li:hover {
+  color: rgb(30, 30, 233);
+  font-weight: bold;
+}
