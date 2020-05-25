@@ -1,0 +1,48 @@
+/*Formulario */
+#formulario{
+  clear: both;
+  float: left;
+  margin: auto;
+  padding-left: 100px;
+}
+
+.form-group div {
+  margin: 4px;
+}
+
+.form-group div label {
+  width: 160px;
+  float: left;
+  background: rgba(236, 235, 235, 0.884);
+  padding: 2px;
+  border-radius: 3px;
+
+  background: rgb(64, 64, 64);
+  color: white;
+  font-weight: bold;
+}
+
+fieldset {
+  width: 420px;
+  height: 300px;
+}
+
+.entrada {
+  border-radius: 3px;
+  color: solid;
+}
+
+/* Esto es para el degradado de botones */
+.boton {
+  background: -webkit-linear-gradient(gray, white);
+  background: -moz-linear-gradient(gray, white);
+  background: -o-linear-gradient(gray, white);
+}
+
+aside{
+  float: left;
+}
+
+aside img{
+  width: 660px;
+}
